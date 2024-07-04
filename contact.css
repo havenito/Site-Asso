@@ -1,0 +1,14 @@
+
+.contact-details {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    border-bottom: 2px solid red;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}

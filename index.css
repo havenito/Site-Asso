@@ -1,0 +1,178 @@
+
+.presentation {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+
+.texte {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.slider {
+    width: 50%;
+    position: relative;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.swiper-slide-active,
+.swiper-slide-duplicate-active {
+    display: flex !important;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+
+
+.avis, .temoignages, .don {
+    margin-top: 40px;
+}
+
+.avis button, .don button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.avis button:hover, .don button:hover {
+    background-color: #555;
+}
+
+.temoignages {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.temoignage, .temoignage2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.temoignage .photo, .temoignage2 .photo {
+    margin-right: 20px;
+    max-height: 100px;
+    max-width: 100px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.temoignage .text, .temoignage2 .text {
+    flex: 1;
+}
+
+.temoignage .text p, .temoignage2 .text p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.avis, .temoignages, .don {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.temoignages {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.temoignage, .temoignage2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.temoignage .photo, .temoignage2 .photo {
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.temoignage .text, .temoignage2 .text {
+    flex: 1;
+}
+
+.temoignage .text p, .temoignage2 .text p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Boutons */
+button {
+    background-color: #ccc;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #bbb;
+}
+
+
+
+
